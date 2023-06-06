@@ -16,6 +16,8 @@ public class Evento {
     private Long id;
     private String name;
     private String address;
+
+    @Column(columnDefinition = "TEXT")
     private String eventImageUrl;
     private String eventDay; 
 
@@ -24,6 +26,8 @@ public class Evento {
     private String description;
 
     private String creatorName;
+
+    @Column(columnDefinition = "TEXT")
     private String creatorImageUrl;
 
     public Evento() {
