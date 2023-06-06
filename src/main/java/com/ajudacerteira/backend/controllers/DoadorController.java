@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ajudacerteira.backend.entities.Doador;
 import com.ajudacerteira.services.DoadorService;
 
-@RestController
+@RestController //
 @RequestMapping(value = "/doadores")
 public class DoadorController {
     
